@@ -1,7 +1,7 @@
 import React from 'react';
 
 const style: React.CSSProperties = {
-    backgroundColor: '#7159c1',
+    backgroundColor: '#00A5DB',
     color: '#fff',
 };
 
