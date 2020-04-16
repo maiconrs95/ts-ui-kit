@@ -6,7 +6,7 @@ export default create({
     colorSecondary: '#00A5DB',
 
     appBg: '#2D2D2D',
-    appContentBg: '#575757',
+    appContentBg: '#F7F7F7',
     appBorderColor: '#00A5DB',
 
     textColor: '#fff',

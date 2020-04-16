@@ -1,10 +1,12 @@
 {
   "name": "ts-ui-kit",
   "version": "1.0.0",
+  "author": "Maicon Silva",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "start-storybook -p 9000"
+    "dev": "start-storybook -p 9000",
+    "build": "tsc -p ."
   },
   "devDependencies": {
     "@storybook/addon-centered": "^5.3.18",
@@ -16,5 +18,9 @@
     "react-docgen-typescript-loader": "^3.7.2",
     "ts-loader": "^7.0.0",
     "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/styled-components": "^5.1.0",
+    "styled-components": "^5.1.0"
   }
 }
