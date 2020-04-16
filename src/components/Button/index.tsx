@@ -6,5 +6,5 @@ const style: React.CSSProperties = {
 };
 
 export const Button: React.FC = ({ children }) => {
-    return <button style={style}>{children}</button>
-}
+    return <button style={style}>{children}</button>;
+};
