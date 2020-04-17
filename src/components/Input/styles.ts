@@ -14,9 +14,9 @@ const Error = css`
 export const Label = styled.label<ILabel>`
     display: flex;
     position: relative;
+    height: 40px;
 
     input {
-        height: 40px;
         border-radius: 4px;
         padding: 8px 12px;
         border: none;
