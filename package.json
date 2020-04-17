@@ -1,12 +1,12 @@
 {
   "name": "ts-ui-kit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Maicon Silva",
   "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "dev": "start-storybook -p 9000",
-    "build": "rm -r dist && tsc -p ."
+    "build": "tsc -p ."
   },
   "devDependencies": {
     "@storybook/addon-centered": "^5.3.18",
