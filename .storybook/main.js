@@ -1,6 +1,8 @@
 const path = require('path');
 
 module.exports = {
+    addons: ['@storybook/addon-a11y/register'],
+
     webpackFinal: async (config) => {
         config.module.rules.push({
             test: /\.(ts|tsx)$/,
